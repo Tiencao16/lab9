@@ -31,12 +31,11 @@ Pytest Documentation
 SauceDemo Demo Site
 
 ## 4. Cấu trúc thư mục dự án
-text
-selenium-test-automation/
+lab9/
 ├── tests/
-│   ├── test_login.py
-│   ├── test_search.py
-│   └── test_add_to_cart.py
+│ ├── test_login.py
+│ ├── test_search.py
+│ └── test_add_to_cart.py
 ├── requirements.txt
 └── README.md
 tests/: chứa các file test case.
@@ -46,16 +45,12 @@ requirements.txt: danh sách các thư viện cần cài đặt.
 README.md: báo cáo thực hành (file này).
 
 ## 5. Các test case
-Mã	Chức năng	Các bước thực hiện	Kết quả mong đợi
-TC01	Đăng nhập thành công	1. Mở trang đăng nhập
-2. Nhập username standard_user
-3. Nhập password secret_sauce
-4. Nhấn nút Login	Chuyển đến trang sản phẩm (URL chứa /inventory)
-TC02	Kiểm tra danh sách sản phẩm	1. Đăng nhập thành công
-2. Kiểm tra số lượng sản phẩm hiển thị	Có ít nhất 1 sản phẩm trong danh sách
-TC03	Thêm sản phẩm vào giỏ hàng	1. Đăng nhập
-2. Nhấn nút "Add to cart" của sản phẩm đầu tiên
-3. Xem biểu tượng giỏ hàng	Biểu tượng giỏ hàng hiển thị số 1
+| Mã | Chức năng | Các bước thực hiện | Kết quả mong đợi |
+|----|-----------|---------------------|-------------------|
+| TC01 | Đăng nhập thành công | 1. Mở trang đăng nhập<br>2. Nhập username `standard_user`<br>3. Nhập password `secret_sauce`<br>4. Nhấn nút Login | Chuyển đến trang sản phẩm (URL chứa `/inventory`) |
+| TC02 | Kiểm tra danh sách sản phẩm | 1. Đăng nhập thành công<br>2. Kiểm tra số lượng sản phẩm hiển thị | Có ít nhất 1 sản phẩm trong danh sách |
+| TC03 | Thêm sản phẩm vào giỏ hàng | 1. Đăng nhập<br>2. Nhấn nút "Add to cart" của sản phẩm đầu tiên<br>3. Xem biểu tượng giỏ hàng | Biểu tượng giỏ hàng hiển thị số 1 |
+
 ## 6. Cài đặt và chạy kiểm thử
 Yêu cầu hệ thống
 Python 3.10 trở lên
