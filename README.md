@@ -31,6 +31,7 @@ Pytest Documentation
 SauceDemo Demo Site
 
 ## 4. Cấu trúc thư mục dự án
+
 lab9/
 ├── tests/
 │ ├── test_login.py
@@ -38,6 +39,7 @@ lab9/
 │ └── test_add_to_cart.py
 ├── requirements.txt
 └── README.md
+
 tests/: chứa các file test case.
 
 requirements.txt: danh sách các thư viện cần cài đặt.
