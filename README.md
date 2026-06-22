@@ -32,11 +32,16 @@ SauceDemo Demo Site
 
 ## 4. Cấu trúc thư mục dự án
 
-lab9/
+selenium-saucedemo-testing/
+├── pages/
+│   ├── cart_page.py
+│   ├── inventory_page.py
+│   └── login_page.py
 ├── tests/
-│ ├── test_login.py
-│ ├── test_search.py
-│ └── test_add_to_cart.py
+│   ├── conftest.py
+│   └── test_saucedemo.py
+├── .gitignore
+├── pytest.ini
 ├── requirements.txt
 └── README.md
 
