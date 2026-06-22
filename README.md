@@ -31,26 +31,18 @@ Pytest Documentation
 SauceDemo Demo Site
 
 ## 4. Cấu trúc thư mục dự án
-
-selenium-saucedemo-testing/
-├── pages/
-│   ├── cart_page.py
-│   ├── inventory_page.py
-│   └── login_page.py
+lab9/
 ├── tests/
-│   ├── conftest.py
-│   └── test_saucedemo.py
-├── .gitignore
-├── pytest.ini
+│ ├── test_login.py
+│ ├── test_search.py
+│ └── test_add_to_cart.py
 ├── requirements.txt
 └── README.md
 
-tests/: chứa các file test case.
-
-requirements.txt: danh sách các thư viện cần cài đặt.
-
-README.md: báo cáo thực hành (file này).
-
+text
+- **tests/**: chứa các file test case.
+- **requirements.txt**: danh sách các thư viện cần cài đặt.
+- **README.md**: báo cáo thực hành (file này).
 ## 5. Các test case
 | Mã | Chức năng | Các bước thực hiện | Kết quả mong đợi |
 |----|-----------|---------------------|-------------------|
