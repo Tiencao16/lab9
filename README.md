@@ -1,5 +1,5 @@
-#BÁO CÁO THỰC HÀNH KIỂM THỬ TỰ ĐỘNG VỚI SELENIUM WEBDRIVER
-##1. Thông tin bài thực hành
+# BÁO CÁO THỰC HÀNH KIỂM THỬ TỰ ĐỘNG VỚI SELENIUM WEBDRIVER
+## 1. Thông tin bài thực hành
 Công cụ: Selenium WebDriver
 
 Ngôn ngữ: Python
@@ -10,7 +10,7 @@ Website kiểm thử: SauceDemo
 
 Trình duyệt: Google Chrome
 
-##2. Mục tiêu
+## 2. Mục tiêu
 Bài thực hành nhằm tìm hiểu cách Selenium WebDriver điều khiển trình duyệt và xây dựng các ca kiểm thử tự động cho một website. Cụ thể:
 
 Cài đặt và cấu hình môi trường Selenium với Python.
@@ -21,7 +21,7 @@ Thực hiện các thao tác cơ bản: nhập liệu, nhấn nút, chờ đợi
 
 Tổ chức các test case với Pytest và kiểm tra kết quả mong đợi.
 
-##3. Tài liệu tham khảo
+## 3. Tài liệu tham khảo
 Selenium with Python – Official Documentation
 
 Selenium Waits – Explicit Wait
